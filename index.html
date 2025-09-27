@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Dyslexia-friendly fonts: OpenDyslexic as primary -->
+    <link rel="stylesheet" href="https://opendyslexic.org/cdn/opendyslexic.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Comic+Neue:wght@300;400;700&display=swap">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <title>NeuroAid Lite - Accessible Learning Companion</title>
+    <meta name="description" content="A comprehensive learning companion designed for students with dyslexia and dyscalculia, featuring synchronized text-to-speech, visual math tools, and accessibility-first design." />
+    <meta name="author" content="NeuroAid Team" />
+    <meta name="keywords" content="dyslexia, dyscalculia, accessibility, learning disabilities, education, text-to-speech, assistive technology" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="NeuroAid Lite - Accessible Learning Companion" />
+    <meta property="og:description" content="Empowering students with learning differences through research-backed accessibility features and empathetic design." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@neuroaid_dev" />
+    <meta name="twitter:title" content="NeuroAid Lite - Accessible Learning Companion" />
+    <meta name="twitter:description" content="Supporting students with dyslexia and dyscalculia through innovative, accessible learning tools." />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <!-- Custom Styles for Dyslexia Accessibility -->
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'OpenDyslexic', 'Atkinson Hyperlegible', 'Comic Neue', Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #222;
+        font-size: 18px;
+        line-height: 1.6;
+        /* Improved font smoothing for readability */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* Ensure font is inherited */
+        font-family: inherit;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main content root, focusable for accessibility -->
+    <div id="root" role="main" aria-label="Main content" tabindex="-1"></div>
+    <script type="module" src="src/main.tsx"></script>
+  </body>
+</html>
