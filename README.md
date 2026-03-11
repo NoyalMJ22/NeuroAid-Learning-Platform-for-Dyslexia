@@ -1,46 +1,107 @@
-🧠 NeuroAid App – Key Features
-📊 User-Friendly Dashboard
+# 🧠 NeuroAid
 
-Centralized dashboard for seamless navigation.
+> **Empowering minds. One game at a time.**
 
-Quick access to games, resources, and progress reports.
+NeuroAid is an adaptive learning application designed to support individuals with dyslexia through interactive cognitive games, personalized learning paths, and accessible design — making education more inclusive and engaging for everyone.
 
-🎮 Gamer Tasks
+---
 
-Interactive mini-games to strengthen cognitive and reading skills.
+## ✨ Features
 
-Specially designed for users with dyslexia.
+### 📊 User-Friendly Dashboard
+- Centralized hub for seamless navigation across all features
+- Quick access to games, resources, and progress reports at a glance
 
-Adaptive difficulty and real-time progress tracking.
+### 🎮 Gamer Tasks
+- Interactive mini-games crafted to strengthen cognitive and reading skills
+- Specially designed with dyslexia users in mind
+- Adaptive difficulty levels that evolve with the user
+- Real-time progress tracking after every session
 
-📚 Educational Resources
+### 📚 Educational Resources
+- Informative content covering dyslexia, symptoms, and coping strategies
+- Practical guidance for parents, teachers, and students
 
-Informative content about dyslexia, symptoms, and coping strategies.
+### 🧩 Personalized Learning
+- Custom learning paths tailored to each user's performance
+- Dynamic content adaptation powered by regular assessments
 
-Practical tips for parents, teachers, and students.
+### 📈 Progress Monitoring
+- Visual analytics and detailed progress reports for users and guardians
+- Achievement badges and rewards to motivate consistent learning
 
-🧩 Personalized Learning
+### ♿ Accessible Design
+- Dyslexia-friendly fonts, color schemes, and layouts throughout
+- Fully responsive — works seamlessly on desktop, tablet, and mobile
 
-Custom learning paths tailored to individual performance.
+### 🤝 Community Support *(Optional)*
+- Forums and chat options for peer support and shared experiences
 
-Regular assessments to adapt content dynamically.
+### 🔐 Secure User Accounts
+- Safe authentication and robust data privacy protections for all users
 
-📈 Progress Monitoring
+---
 
-Visual analytics and progress reports for users and guardians.
+## 🛠️ Tech Stack
 
-Achievements and rewards to encourage consistent learning.
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React Native / Flutter |
+| Backend | Node.js / Python |
+| Database | Firebase / MongoDB |
+| Auth | JWT / OAuth 2.0 |
 
-♿ Accessible Design
+> *(Update this table to match your actual stack)*
 
-Dyslexia-friendly fonts, colors, and layouts.
+---
 
-Cross-platform support: desktop, tablet, and mobile.
+## 🚀 Getting Started
 
-🤝 Community Support (Optional Feature)
+```bash
+# Clone the repository
+git clone https://github.com/NoyalMJ22/Codescape.git
 
-Forums or chat options for sharing experiences and peer support.
+# Navigate into the project
+cd Codescape
 
-🔐 Secure User Accounts
+# Install dependencies
+npm install
 
-Safe login and data privacy protections for all users.
+# Start the development server
+npm start
+```
+
+---
+
+## 📸 Screenshots
+
+> *(Add screenshots or a demo GIF here to showcase the app)*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue first to discuss what you'd like to change.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m "Add your feature"`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Noyal Mathew Jain**
+[![GitHub](https://img.shields.io/badge/GitHub-NoyalMJ22-181717?style=flat&logo=github)](https://github.com/NoyalMJ22)
+
+---
+
+<p align="center">Made with ❤️ to make learning accessible for everyone.</p>
